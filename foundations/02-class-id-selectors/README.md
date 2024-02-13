@@ -23,3 +23,36 @@ Quick tip: in VS Code, you can change which format colors are displayed in RGB, 
 - Do the odd numbered `p` elements share a class?
 - Do the even numbered `div` elements have unique IDs?
 - Does the Number 3 element have multiple classes?
+
+## My Original Answer (before looking at the answer)
+
+<body>
+    <p>number 1 - i'm a class!</p>
+    <div class="second">number 2 - i'm one id.</div>
+    <p id="third">number 3 - i'm a class, but cooler!</p>
+    <div class="fourth">number 4 - i'm another id.</div>
+    <p>number 5 - i'm a class!</p>
+</body>
+
+/* styles.css */
+
+p {
+    background-color: hsl(360, 60%, 80%);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.second {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+#third {
+    font-size: 24px;
+}
+.fourth {
+    background-color: hsl(120, 60%, 70%);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+# What I did as the answer...
